@@ -1,10 +1,7 @@
-*{
-    margin:0px;
-    padding:0px;
-}
 body{
     font-family:"Lato",sans-serif;
     line-height:1.5em;
+    margin:0px;
 }
 .navbar{
     text-align:center;
@@ -72,4 +69,16 @@ body{
   border:none;
   font-weight:bold;
   color:white;
+}
+.sec-1{
+     text-align:center;
+     padding:40px 60px;
+}
+.sec-2{
+    text-align:center;
+    padding:40px 60px;
+}
+.sec-3{
+    text-align:center;
+    padding:40px 60px;
 }
