@@ -46,7 +46,7 @@ body{
     background-attachment: fixed;
 }
 .image3{
-    background-image:linear-gradient(rgba(63, 63, 63, 0.75),rgba(63, 63, 63, 0.75)),url(../images/car-3.jpg);
+    background-image:linear-gradient(rgba(63, 63, 63, 0.75),rgba(63, 63, 63, 0.75)),url(../images/car-4.jpg);
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -57,14 +57,14 @@ body{
 }
 .btn{
   position:relative;
-  top:30%;
+  top:40%;
   left:30%;
   padding:10px 25px;
   letter-spacing:0.6em;
   text-transform:uppercase;
   font-size:30px;
-  background:transparent;
+  background:brown;
   border:none;
   font-weight:bold;
-  color:brown;
+  color:white;
 }
