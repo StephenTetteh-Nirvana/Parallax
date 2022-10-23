@@ -26,31 +26,31 @@ body{
     /* border-bottom:3px solid grey; */
 }
 .image1{
-    background-image:url(../images/car-2.jpg);
+    background-image:linear-gradient(rgba(63, 63, 63, 0.75),rgba(63, 63, 63, 0.75)),url(../images/car-2.jpg);
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-    opacity:0.6;
+    /* opacity:0.6; */
     height:100vh;
     width:100%;
     background-attachment: fixed;
 }
 .image2{
-    background-image:url(../images/car-1.jpg);
+    background-image:linear-gradient(rgba(63, 63, 63, 0.75),rgba(63, 63, 63, 0.75)),url(../images/car-1.jpg);
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-    opacity:0.6;
+    /* opacity:0.6; */
     min-height:500px;
     width:100%;
     background-attachment: fixed;
 }
 .image3{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/car-3.jpg);
+    background-image:linear-gradient(rgba(63, 63, 63, 0.75),rgba(63, 63, 63, 0.75)),url(../images/car-3.jpg);
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-    opacity:0.6;
+    /* opacity:0.6; */
    min-height:500px;
     width:100%;
     background-attachment: fixed;
