@@ -23,8 +23,11 @@ body{
     margin:0px 50px;
     color:black;
 }
-.highlight{
+.navbar li a:hover{
     color:blue;
+}
+.highlight{
+    border-bottom:2px solid red;
 }
 .image1{
     background-image:linear-gradient(rgba(63, 63, 63, 0.75),rgba(63, 63, 63, 0.75)),url(../images/car-2.jpg);
@@ -99,4 +102,30 @@ body{
  .car-name2{
      font-size:30px;
      color:white;
+ }
+
+ /* About */
+ .container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+ }
+ .Img1{
+    background-image: url(../images/car-3.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+ }
+ .griditem2{
+    background-color:yellow;
+ }
+ .box-1{
+    text-align:center;
+   position:relative;
+   left:10%;
+   top:10%;
+   background-color: brown;
+   color:white;
+   width:100px;
+   height: 300px;
  }
