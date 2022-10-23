@@ -3,16 +3,16 @@
     padding:0px;
 }
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Lato",sans-serif;
+    line-height:1.5em;
 }
 .navbar{
     text-align:center;
-    background-color:black;
+    background-color:white;
     padding:20px 15px;
     position: sticky;
     top:0;
     z-index:20;
-   
 }
 .navbar ul{
      list-style:none;
@@ -24,7 +24,7 @@ body{
 .navbar li a{
     text-decoration:none;
     font-size:1rem;
-    color:white;
+    color:black;
     margin:0px 50px;
 }
 .navbar li a:hover{
