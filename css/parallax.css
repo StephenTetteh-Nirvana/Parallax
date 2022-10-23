@@ -1,6 +1,5 @@
 body{
-    font-family:"Lato",sans-serif;
-    line-height:1.5em;
+    font-family:cursive;
     margin:0px;
 }
 .navbar{
@@ -70,6 +69,9 @@ body{
   font-weight:bold;
   color:white;
 }
+
+/* Section Area  */
+
 .sec-1{
      text-align:center;
      padding:40px 60px;
@@ -82,3 +84,19 @@ body{
     text-align:center;
     padding:40px 60px;
 }
+.text1{
+   text-align:center;
+   padding-top:200px;
+}
+.car-name1{
+    font-size:30px;
+    color:white;
+}
+.text2{
+    text-align:center;
+    padding-top:200px;
+ }
+ .car-name2{
+     font-size:30px;
+     color:white;
+ }
