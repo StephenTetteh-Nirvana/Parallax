@@ -165,6 +165,41 @@ body{
     /* border:1px solid white; */
     color: white;
  }
+ .gridbox1 h1{
+       text-transform:uppercase;
+       position:relative;
+       font-size:60px;
+       top:35%;
+       left:10%;
+ }
+.Bt{
+   position:relative;
+   top:32%;
+   left:10%;
+   border:none;
+   border-radius:25px;
+   text-transform:uppercase;
+   padding:15px 20px;
+   background:transparent;
+   border:1px solid coral;
+   color:white;
+   width:200px;
+   transition:all 0.5s ease-in-out;
+   cursor:pointer;
+   font-size:16px;
+ }
+ .Bt:hover{
+      margin-top:10px;
+      background-color:coral;
+      width:200px;
+      font-size:20px;
+ }
+
+ .gridbox1 p{
+   position:relative;
+   top:30%;
+   left:10%;
+ }
  .gridbox2{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -182,7 +217,7 @@ body{
     height:300px;
     border-radius:15px;
     margin-left:50px;
-    border:1px solid white;
+    /* border:1px solid white; */
     transition:all 0.5s ease-in-out;
  }
 .griditem1:hover{
@@ -197,7 +232,7 @@ body{
     height:300px;
     border-radius:15px;
     margin-left:5px;
-    border:1px solid white;
+    /* border:1px solid white; */
     transition:all 0.5s ease-in-out;
  }
  .griditem-2:hover{
@@ -212,7 +247,7 @@ body{
     height:300px;
     border-radius:15px;
     margin-top:15px;
-    border:1px solid white;
+    /* border:1px solid white; */
     margin-left:50px;
     transition:all 0.5s ease-in;
  }
@@ -229,7 +264,7 @@ body{
     border-radius:15px;
     margin-top:15px;
     margin-left:5px;
-    border:1px solid white;
+    /* border:1px solid white; */
     transition:all 0.5s ease-in-out;
  }
  .griditem4:hover{
