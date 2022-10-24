@@ -171,7 +171,7 @@ body{
     /* border:1px solid white; */
     color: white;
     margin-top:80px;
-    margin-left:30px;
+    margin-left:50px;
  }
  .griditem1{
     background-image:url(../images/car-4.jpg);
@@ -201,7 +201,7 @@ body{
     transition:all 0.5s ease-in-out;
  }
  .griditem-2:hover{
-    margin-top:10px;
+    margin-left:30px;
 }
  .griditem3{
     background-image:url(../images/car-9.jpg);
@@ -233,5 +233,5 @@ body{
     transition:all 0.5s ease-in-out;
  }
  .griditem4:hover{
-    margin-top:10px;
+    margin-left:30px;
 }
