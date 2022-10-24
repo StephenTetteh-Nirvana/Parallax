@@ -156,6 +156,22 @@ body{
     overflow:hidden;
     height:100vh;
  }
+ .background-2{
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/14.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   overflow:hidden;
+   height:100vh;
+}
+.background-3{
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/12.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   overflow:hidden;
+   height:100vh;
+}
  .grid{
     /* border:1px solid red; */
     display:grid;
@@ -220,9 +236,24 @@ body{
     /* border:1px solid white; */
     transition:all 0.5s ease-in-out;
  }
-.griditem1:hover{
-     margin-left: 10px;
+ .griditem1:hover{
+   margin-left: 10px;
+}
+ .item1{
+   background-image:url(../images/13.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   width:350px;
+   height:300px;
+   border-radius:15px;
+   margin-left:50px;
+   /* border:1px solid white; */
+   transition:all 0.5s ease-in-out;
  }
+ .item1:hover{
+   margin-left:30px;
+}
  .griditem-2{
     background-image:url(../images/car-10.jpg);
     background-size:cover;
@@ -236,7 +267,22 @@ body{
     transition:all 0.5s ease-in-out;
  }
  .griditem-2:hover{
-    margin-left:30px;
+   margin-left:30px;
+}
+ .item2{
+   background-image:url(../images/12.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   width:300px;
+   height:300px;
+   border-radius:15px;
+   margin-left:15px;
+   /* border:1px solid white; */
+   transition:all 0.5s ease-in-out;
+ }
+.item2:hover{
+   margin-left:30px;
 }
  .griditem3{
     background-image:url(../images/car-9.jpg);
@@ -252,7 +298,23 @@ body{
     transition:all 0.5s ease-in;
  }
  .griditem3:hover{
-    margin-left: 10px;
+   margin-left: 10px;
+}
+ .item3{
+   background-image:url(../images/15.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   width:350px;
+   height:300px;
+   margin-top:20px;
+   border-radius:15px;
+   margin-left:50px;
+   /* border:1px solid white; */
+   transition:all 0.5s ease-in-out;
+ }
+.item3:hover{
+   margin-left:30px;
 }
  .griditem4{
     background-image:url(../images/car-1.jpg);
@@ -268,5 +330,25 @@ body{
     transition:all 0.5s ease-in-out;
  }
  .griditem4:hover{
-    margin-left:30px;
+   margin-left:30px;
+}
+ .item4{
+   background-image:url(../images/16.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   width:300px;
+   height:300px;
+   margin-top:20px;
+   border-radius:15px;
+   margin-left:15px;
+   /* border:1px solid white; */
+   transition:all 0.5s ease-in-out;
+ }
+.item4:hover{
+   margin-left:30px;
+}
+hr{
+   color:red;
+   padding:0px 10px;
 }
